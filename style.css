@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@media screen and (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 720px;
+  }
+}
+@media screen and (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 560px;
+  }
+}
+@media screen and (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 400px;
+  }
+}
+
+body {
+  background-color: #97DFFC;
+  font-family: 'Roboto', sans-serif;
+  color: #2C0735;
+  font-size: 16px;
+  line-height: 8px;
+  font-weight: 400;
+}
+
+h1 {
+  color: #4E148C;
+  font-size: 40px;
+  line-height: 16px;
+}
+
+h2 {
+  color: #4E148C;
+  font-size: 24px;
+  line-height: 16px;
+}
+
+a {
+  color: #858AE3;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 16px;
+}
+
+a:hover {
+  color: #613DC1;
+}
+
+.container {
+  margin: 40px auto;
+  width: 880px;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);
+  margin: 40px auto;
+  border: solid 5px #858AE3;
+  text-align: center;
+}
