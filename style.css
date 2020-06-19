@@ -69,3 +69,7 @@ a:hover {
   border: solid 5px #858AE3;
   text-align: center;
 }
+
+#profile-pic {
+  object-fit: cover;
+}
