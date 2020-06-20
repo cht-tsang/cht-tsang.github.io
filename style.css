@@ -73,4 +73,6 @@ a:hover {
 
 #profilepic {
   object-fit: cover;
+  border-radius: 8px;
+  border: solid 1px black;
 }
